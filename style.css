@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    color:#2f4239;
+}
+
+body {
+    background-color: #DEF5E5;
+}
+
+.game-place {
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 50%;
+    background-color: #BCEAD5;
+    border-radius: 0.5rem;
+}
+
+.game-place .text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.score {
+    padding: 1rem 0 1rem 0;
+    font-size: 24px;
+}
+
+button {
+    width: 5rem;
+    padding: 2rem 0 2rem 0;
+    margin: 1rem;
+    background-color: #9ED5C5;
+    border-color: #8EC3B0;
+    border-radius: 55%;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+}
